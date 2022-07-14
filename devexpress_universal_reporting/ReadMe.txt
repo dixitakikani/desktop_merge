@@ -6,3 +6,6 @@ nohup dotnet run --launch-profile "ReportingService-Production" --environment "P
 
 
 nohup dotnet run --launch-profile "ReportingService" --environment "Development" > /dev/null 2> /dev/null < /dev/null &
+
+
+ps aux | grep -ie devexpress_universal_reporting | awk '{print $2}' | xargs kill -9

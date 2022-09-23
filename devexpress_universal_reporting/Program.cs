@@ -18,6 +18,11 @@ namespace devexpress_universal_reporting
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) {
             return WebHost.CreateDefaultBuilder(args)
+		    .ConfigureLogging(logBuilder =>
+                {
+                    logBuilder.SetMinimumLevel(LogLevel.Information);
+                    logBuilder.AddLog4Net("log4net.config");
+                })
                 .UseStartup<Startup>();
         }
     }

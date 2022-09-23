@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk.Web">
   <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <DefaultItemExcludes>Reports\**</DefaultItemExcludes>
   </PropertyGroup>
   <ItemGroup>
@@ -43,5 +43,5 @@
     
     
     
-    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.16" /><PackageReference Include="DevExpress.AspNetCore.Reporting" Version="21.2.5" /><PackageReference Include="BuildBundlerMinifier" Version="3.2.449" /><PackageReference Include="Microsoft.Web.LibraryManager.Build" Version="2.1.113" /><PackageReference Include="Npgsql" Version="5.0.10" /><PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="5.0.10" /><PackageReference Include="runtime.osx.10.10-x64.CoreCompat.System.Drawing" Version="6.0.5.128" /></ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.16" /><PackageReference Include="DevExpress.AspNetCore.Reporting" Version="21.2.5" /><PackageReference Include="BuildBundlerMinifier" Version="3.2.449" /><PackageReference Include="Microsoft.Extensions.Logging.Log4Net.AspNetCore" Version="6.1.0" /><PackageReference Include="Microsoft.Web.LibraryManager.Build" Version="2.1.113" /><PackageReference Include="Npgsql" Version="5.0.10" /><PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="5.0.10" /><PackageReference Include="runtime.osx.10.10-x64.CoreCompat.System.Drawing" Version="6.0.5.128" /></ItemGroup>
 </Project>

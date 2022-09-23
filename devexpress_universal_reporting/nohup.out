@@ -1,0 +1,6 @@
+Building...
+/home/mint2prd/pcm-prod-enviroment/coms_backend/devexpress_universal_reporting/devexpress_universal_reporting/devexpress_universal_reporting.csproj : warning NU1603: devexpress_universal_reporting depends on DevExpress.AspNetCore.Reporting (>= 21.2.5) but DevExpress.AspNetCore.Reporting 21.2.5 was not found. An approximate best match of DevExpress.AspNetCore.Reporting 21.2.7 was resolved.
+/home/mint2prd/pcm-prod-enviroment/coms_backend/devexpress_universal_reporting/devexpress_universal_reporting/devexpress_universal_reporting.csproj : warning NU1603: devexpress_universal_reporting depends on DevExpress.AspNetCore.Reporting (>= 21.2.5) but DevExpress.AspNetCore.Reporting 21.2.5 was not found. An approximate best match of DevExpress.AspNetCore.Reporting 21.2.7 was resolved.
+Attempting to cancel the build...
+
+The build failed. Fix the build errors and run again.
